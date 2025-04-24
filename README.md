@@ -58,6 +58,42 @@ This is how real companies prevent unauthorized access and make sure users follo
 ## 🖼️ Screenshots  
 *(Insert screenshots showing the GPO settings, lockout screen, account reset, Event Viewer logs, etc.)*
 
+
+
+
+## 🔐 Account Lockout & Password Policy Lab
+
+This lab demonstrates how to configure account lockout settings and password policies using Group Policy Management, and how to reset or unlock user accounts via Active Directory.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c84f3748-5725-4d1f-8627-bb4c200a621a" width="700"/>
+  <figcaption><strong>Figure 1:</strong> Launching Group Policy Management Console (gpmc.msc) using the Windows Run dialog. This tool is used to manage domain-wide group policies.</figcaption>
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e46607cf-2c4b-4b6e-a8f9-db2fd183a8d5" width="850"/>
+  <figcaption><strong>Figure 2:</strong> Navigating to the "Password Policy" section under the Default Domain Policy. This shows settings like password length, history, and complexity requirements.</figcaption>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/80e2df5f-0e3f-4d42-873d-c76bac7395a9" width="850"/>
+  <figcaption><strong>Figure 3:</strong> Viewing the "Account Lockout Policy" settings, including lockout threshold, duration, and reset timing. These values help prevent brute-force login attempts.</figcaption>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/624a2b7c-2022-433c-addb-832e865c2777" width="850"/>
+  <figcaption><strong>Figure 5:</strong> Viewing a locked-out user account in Active Directory. The "Unlock account" checkbox is shown under the user's properties.</figcaption>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/45f3b3f5-d8f9-4f39-9a48-e6eb330634f6" width="850"/>
+  <figcaption><strong>Figure 6:</strong> Right-clicking a locked user to access the "Reset Password" option. This step is often performed when assisting users who’ve exceeded login attempts.</figcaption>
+</p>
+
+
+
+
 ---
 
 
